@@ -1,0 +1,883 @@
+body {
+    overflow-x: hidden;
+}
+
+
+/* Header ------------------------------------------- */
+
+header {
+    background: #fff;
+    font-size: .8em;
+    color: #a3a3a3;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    position: fixed;
+    z-index: 100;
+    list-style-type: none;
+    height: 66px;
+    display: inline-block;
+    line-height: 67px;
+}
+
+header a {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+header nav a:hover {
+    color: #f63c3c;
+}
+
+header nav li:hover {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    box-shadow: 0px -3px 0px #f63c3c inset;
+}
+
+header nav {
+    margin: 0 35%;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 10px;
+    float: left;
+}
+
+header aside li {
+    padding: 0 6px;
+    display: inline;
+    font-size: 1.3em;
+    float: right;
+}
+
+header aside li a:hover {
+    color: #fff;
+}
+
+header aside ul {
+    margin-right: 20px;
+}
+
+header img {
+    background: #f63c3c;
+    padding: 10px 20px;
+    margin: 0;
+    position: absolute;
+}
+
+header img:hover {
+    opacity: .8;
+}
+
+
+/* We Build Websites ------------------------------------------- */
+
+.webuild {
+    background-image: url("../img/background.png");
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    float: right;
+}
+
+.webuild h1 {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    letter-spacing: .2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 19% 20% 0 20%;
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.2;
+}
+
+.webuild p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .8em;
+    color: #fff;
+    margin: 1% 32% 2% 32%;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.active a {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 7px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 10%;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border: 1px solid #fff;
+}
+
+.active a:hover {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 7px 20px;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.nav-non {
+    display: inline-block;
+    padding: 0 6px;
+    opacity: .2;
+}
+
+.nav-non:hover {
+    opacity: 1;
+}
+
+.nav-active {
+    display: inline-block;
+    padding: 0 6px;
+    opacity: 1;
+}
+
+.webuild nav {
+    margin: 11.5% 41.3%;
+}
+
+
+/* Highlighted Projects ------------------------------------------- */
+
+#highlighted {
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-color: #fafafa;
+}
+
+#featured {
+    float: right;
+    width: 50%;
+    height: 600px;
+}
+
+#dancer {
+    background: #000 url("../img/dancer.png") no-repeat top right;
+    background-size: cover;
+    height: 600px;
+}
+
+h4 {
+    color: #777676;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 12px;
+    margin-left: 12%;
+    margin-top: 350px;
+    display: inline-block;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+
+#featured p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .7em;
+    color: #fff;
+    width: 55%;
+    line-height: 1.4em;
+    margin-left: 12%;
+}
+
+#featuredcontainer a {
+    text-decoration: none;
+}
+
+#featuredcontainer a:hover {
+    opacity: .5;
+}
+
+h2 {
+    color: #30282a;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    width: 60%;
+    margin-left: 38%;
+}
+
+#highlightedp {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .7em;
+    color: #555;
+    line-height: 1.4em;
+    margin-left: 38%;
+    width: 42%;
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+
+#highlighted ul {
+    width: 100%;
+}
+
+#highlighted img {
+    display: inline;
+    position: relative;
+    float: left;
+    width: 33.33%;
+    margin-top: 75px;
+    margin-bottom: 26px;
+}
+
+#highlighted img:hover {
+    opacity: .35;
+}
+
+.redbutton a {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 5px 10px;
+    background-color: #f63c3c;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 38%;
+    text-align: center;
+    display: block;
+    width: 22%;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border: 1px solid #f63c3c;
+    float: left;
+}
+
+.redbutton a:hover {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #f63c3c;
+    color: #f63c3c;
+}
+
+#details {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .6em;
+    color: #555555;
+    display: block;
+    float: left;
+    margin-top: 3%;
+    margin-left: 38%;
+}
+
+#dancer nav {
+    float: left;
+    margin-left: 12%;
+}
+
+
+/* History --------------------------------------------------- */
+
+#history article {
+    float: left;
+    width: 50%;
+    height: 575px;
+}
+
+#history h2 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#historycontent {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .7em;
+    color: #555;
+    line-height: 1.4em;
+    margin-left: 38%;
+    width: 60%;
+}
+
+#historycontent p {
+    margin-bottom: 15px;
+}
+
+#largelogo {
+    float: right;
+    width: 50%;
+}
+
+#history .redbutton {
+    margin-top: 26px;
+}
+
+#largelogo img {
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 25%;
+}
+
+.clear {
+    clear: both;
+}
+
+#history aside {
+    margin-left: 14%;
+    width: 100%;
+}
+
+#history aside img {
+    height: 30%;
+    margin-bottom: 5px;
+}
+
+#history li {
+    display: inline-block;
+    padding: 0 8%;
+    text-align: center;
+}
+
+.metric {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    letter-spacing: .05em;
+    font-weight: 300;
+    color: #f63c3c;
+    font-size: 2.8em;
+}
+
+#history aside p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .7em;
+    color: #353535;
+}
+
+
+/* Services ---------------------------------------------------- */
+
+#services {
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-top: 45px;
+    height: 650px;
+}
+
+#services h2 {
+    margin-left: 19%;
+    display: inline-block;
+    margin-top: 65px;
+}
+
+.service {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #30282a;
+    text-transform: uppercase;
+    width: 75%;
+    margin-top: 15px;
+}
+
+#services p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .7em;
+    color: #353535;
+    line-height: 1.4em;
+    margin-top: 13px;
+    width: 95%;
+}
+
+#services ul {
+    margin-left: 19%;
+    display: inline-block;
+    width: 70%;
+}
+
+#services li {
+    width: 31%;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+#services img {
+    margin-top: 40px;
+    width: 17%;
+}
+
+
+/* Call to Action ---------------------------------------------------- */
+
+#cta {
+    width: 100%;
+    background-image: url("../img/city.png");
+    height: 150px;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#cta p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .65em;
+    color: #fff;
+    line-height: 1.4em;
+}
+
+#cta a {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+    letter-spacing: .2em;
+}
+
+#cta a:hover {
+    opacity: .4;
+}
+
+
+/* Journal ---------------------------------------------------- */
+
+#journal {
+    width: 100%;
+    background-color: #fafafa;
+    height: 665px;
+}
+
+#journal aside h2 {
+    display: inline-block;
+    margin-top: 65px;
+    margin-bottom: 35px;
+    margin-left: 0%;
+}
+
+#journal aside {
+    margin-left: 19%;
+}
+
+#journal img {
+    width: 100%;
+}
+
+#journal ul {
+    display: inline-block;
+    width: 84%;
+}
+
+#journal li {
+    width: 31%;
+    display: inline-block;
+    padding-right: 3%;
+}
+
+#journal figcaption {
+    background-color: #fff;
+}
+
+.category {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: .8em;
+    color: #f63c3c;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.articletitle {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 300;
+    font-size: 1.4em;
+    color: #30282a;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+#journal p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .7em;
+    color: #353535;
+    line-height: 1.4em;
+    margin-top: 13px;
+    margin: 0 17px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#journal aside a {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .2em;
+    font-weight: 300;
+    font-size: .8em;
+    color: #30282a;
+    text-align: center;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border: solid 1px #30282a;
+    text-decoration: none;
+}
+
+#journal a:hover {
+    opacity: .4;
+}
+
+.buttonspacing {
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+#morearticles a {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+    color: #30282a;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: .2em;
+    text-decoration: none;
+    border-bottom: solid 2px #30282a;
+}
+
+#morearticles {
+    padding: 0;
+    margin-top: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+#morearticles a:hover {
+    opacity: .4;
+}
+
+
+/* Quotes ------------------------------------------------------ */
+
+#quotes {
+    background-color: #30282a;
+    height: 200px;
+    text-align: center;
+}
+
+.quotesymbol {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 4em;
+    color: #fff;
+    display: inline;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.quotetext {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center;
+    display: inline;
+}
+
+.quoteactive {
+    width: 28%;
+    margin: 0 auto;
+}
+
+.quoteauthor {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+    color: #fff;
+    margin-top: 15px;
+    opacity: .3;
+    text-transform: uppercase;
+}
+
+#quotes ul {
+    padding-top: 50px;
+}
+
+#quotes nav {
+    margin-top: -40px;
+}
+
+
+/* Affiliates ------------------------------------------------------ */
+
+#affiliates {
+    background-color: #30282a;
+    height: 180px;
+    text-align: center;
+}
+
+#affiliates #affiliatesimg li {
+    display: inline-block;
+    border: 1px #453e40 solid;
+    width: 85px;
+    height: 85px;
+    margin: 28px 5px 0px 5px;
+    vertical-align: middle;
+}
+
+#connecto {
+    height: 38%;
+    margin-top: 31%;
+}
+
+#university {
+    height: 56%;
+    margin-top: 22%;
+}
+
+#fr {
+    height: 60%;
+    margin-top: 20%;
+}
+
+#d {
+    height: 50%;
+    margin-top: 25%;
+}
+
+#sage {
+    height: 60%;
+    margin-top: 20%;
+}
+
+#ui {
+    height: 30%;
+    margin-top: 35%;
+}
+
+#affiliates nav {
+    margin-top: 10px;
+}
+
+#affiliatesimg a:hover {
+    opacity: .4;
+}
+
+
+/* Stay Connected ------------------------------------------------------ */
+
+#formleft {
+    float: left;
+    background-color: #fafafa;
+    height: 357px;
+    width: 50%;
+}
+
+#formleft p {
+    margin-left: 38%;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .7em;
+    color: #353535;
+    line-height: 1.4em;
+    margin-top: 25px;
+    width: 57%;
+}
+
+#formleft h2 {
+    margin-top: 50px;
+    width: 30%;
+}
+
+#formleft form {
+    margin-left: 38%;
+    margin-top: 20px;
+}
+
+#submitbutton {
+    color: #fff;
+    background-color: #f63c3c;
+    border: none;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 3px 15px;
+    text-align: center;
+}
+
+#submitbutton:hover {
+    opacity: .5;
+}
+
+#submitfield {
+    height: 25px;
+    border: solid 1px #e5e5e5;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .6em;
+    color: #656565;
+    line-height: 1.4em;
+    margin-top: 0px;
+    padding-left: 10px;
+    width: 65%;
+}
+
+#submitfield:focus {
+    outline: none;
+}
+
+
+/* Bottom Social ------------------------------------------------------ */
+
+#socialright {
+    float: right;
+    width: 50%;
+}
+
+.darkgrey {
+    background-color: #30282a;
+}
+
+.lightgrey {
+    background-color: #352d2f;
+}
+
+#socialright li {
+    display: inline-block;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+    height: 175px;
+}
+
+#socialright ul {
+    width: 100%;
+    display: inline;
+}
+
+#socialright a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#socialright a:hover {
+    opacity: .5;
+}
+
+.socialnetwork {
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-left: 0%;
+    float: left;
+    margin-top: 24%;
+}
+
+#socialright i {
+    font-size: 2em;
+    color: #fff;
+    margin-top: 24%;
+    float: left;
+    margin-left: 25%;
+    margin-right: 8%;
+}
+
+.socialnetwork p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .15em;
+    color: #a6a4a4;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+
+/* Footer ------------------------------------------------------ */
+
+#footer,
+#footer a {
+    background-color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: .5em;
+    color: #474143;
+    text-decoration: none;
+    height: 40px;
+}
+
+#footer p {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 19%;
+}
+
+#footer a:hover {
+    opacity: .3;
+}
+
+.footerlinks ul {
+    float: right;
+    width: 50%;
+    margin-top: -9px;
+    padding-left: 19%;
+}
+
+.footerlinks li {
+    display: inline-block;
+    margin-left: 30px;
+}
